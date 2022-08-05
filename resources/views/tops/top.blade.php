@@ -33,9 +33,6 @@
                 <p>{{$user->profile}}</p>
             </div>
 
-            <div class="skill_lists">
-                <h3>Skill</h3>
-            </div>
 
 
         </section>
