@@ -1,0 +1,127 @@
+.post_create{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    width: 80vw;
+    height:90vh;
+    margin-bottom: 20px;
+    
+}
+
+
+.post_create div{
+    margin-bottom: 10%;;
+}
+
+.post_description{
+    height: 50px;
+    width: 60%;
+    
+}
+
+h2{
+    color: #000 !important;
+}
+
+p{
+    font-size: .75rem;
+    white-space: pre-wrap;
+}
+
+.edit{
+    color:slategray;
+}
+.back{
+    width: 30%;
+    border: 1px solid #000;
+    margin: 15px auto;
+    padding: 5px;
+    color: #fff;
+    background-color: #333;
+}
+
+
+.back:hover{
+    color: #333;
+    background-color: #fff;
+}
+
+
+.posts_list{
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.posts_list section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    border-top: 1px solid #000;
+}
+
+.post_list_photo,
+.post_list_info{
+    width:45%;
+}
+
+.post_list_photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.post_list_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.post_list_text{
+    text-align: left;
+}
+
+.post_list_form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.posts_list section  div img{
+    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+
+
+
+
+/* ---edit.blade ---*/
+
+.post_edit{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    width: 80vw;
+    height:90vh;
+    margin-bottom: 20px;
+}
+
+
+.edit_description{
+
+
+    height: 50px;
+    width: 60%;
+    
+}
+
+
+
+
+@media screen and (max-width:800px) {
+
+}

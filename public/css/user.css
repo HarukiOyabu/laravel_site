@@ -1,0 +1,58 @@
+.user_edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    width: 80vw;
+    height:90vh;
+    margin-bottom: 20px;
+    border-bottom:  1px solid #000;;
+}
+
+
+.user_edit div{
+    margin-bottom: 10%;;
+}
+
+.input_profile{
+    height: 50px;
+    width: 60%;
+    
+}
+
+h2{
+    color: #000 !important;
+}
+
+
+
+.back{
+    width: 30%;
+    border: 1px solid #000;
+    margin: 15px auto;
+    padding: 5px;
+    color: #fff;
+    background-color: #333;
+}
+
+
+.back:hover{
+    color: #333;
+    background-color: #fff;
+}
+
+.user_edit_info{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.user_edit_info img{
+    width: 50%;
+    object-fit: cover;
+}
+
+@media screen and (max-width:800px) {
+
+}

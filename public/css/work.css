@@ -1,0 +1,123 @@
+.work_create{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    width: 80vw;
+    height:90vh;
+    margin-bottom: 20px;
+    
+}
+
+
+.work_create div{
+    margin-bottom: 10%;;
+}
+
+.work_description{
+    height: 50px;
+    width: 60%;
+    
+}
+
+h2{
+    color: #000 !important;
+}
+
+p{
+    font-size: .75rem;
+    white-space: pre-wrap;
+}
+
+.work{
+    color:slategray;
+}
+.back{
+    width: 30%;
+    border: 1px solid #000;
+    margin: 15px auto;
+    padding: 5px;
+    color: #fff;
+    background-color: #333;
+}
+
+
+.back:hover{
+    color: #333;
+    background-color: #fff;
+}
+
+
+
+.works_list{
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.works_list section{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30vh;
+    border-top: 1px solid #000;
+}
+
+.work_list_photo,
+.work_list_info{
+    width:45%;
+}
+
+.work_list_photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.work_list_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.work_list_text{
+    text-align: left;
+}
+
+.work_list_form{
+    display: flex;
+    justify-content: space-between;
+}
+.works_list section div a{
+    height:80%;
+}
+.works_list section  div  a img{
+    margin: 0 auto;
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+}
+
+
+
+/* ---edit.blade ---*/
+
+
+.work_edit{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    width: 80vw;
+    height:90vh;
+    margin-bottom: 20px;
+}
+
+
+.edit_description{
+
+
+    height: 50px;
+    width: 60%;
+    
+}

@@ -1,0 +1,450 @@
+
+article{
+    background-color: rgba(0,0,0,.35);
+}
+
+#top{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+   
+}
+
+
+.background-img{
+    height: 100vh;
+    width:100vw;
+    object-fit: cover;
+    position: fixed;
+    z-index: -999;
+    filter: grayscale(70%);
+}
+
+
+
+#profile{
+    height: 100vh;
+    text-align: center;
+    
+}
+
+
+#profile section{
+    color: #fff;
+    margin: 0 auto 3vh;
+    width: 80vw;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profile_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#profile section  div h3{
+    color: #fff;
+    margin: 30px;
+}
+
+.profile_name img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile_text{
+    text-align: center;
+    clear: both;
+}
+
+
+.skill_list{
+    text-align: center;
+    
+}
+
+
+
+
+
+#work{
+    min-height: 100vh;
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+
+
+.works{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    min-height:60vh;
+    
+    display: flex;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border-bottom:1px solid #fff ;
+    margin-bottom: 20px;
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+}
+
+
+.work_img{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height:40%;
+}
+.work_img img{
+    width: 60%;
+    height: 60%;;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.work_img a{
+   margin: 0 auto;
+   color: aliceblue;
+   background-color: #333333;
+   width: 30%;
+}
+
+.work_img a:hover{
+    background-color: aliceblue;
+    color: #333333;
+}
+
+.work_text{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+
+
+
+
+#news{
+    text-align: center;
+    
+    
+}
+
+
+.posts{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    min-height: 95vh;
+}
+
+.post{
+    display: flex;
+    justify-content: space-evenly;
+    
+    border-bottom:1px solid #fff ;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.post_img,
+.post_text{
+    width: 45%;
+}
+
+.post_img{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+.post_img img{
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.post_img a{
+   margin: 0 auto;
+   color: aliceblue;
+   background-color: #333333;
+   width: 30%;
+}
+
+.post_img a:hover{
+    background-color: aliceblue;
+    color: #333333;
+}
+
+.post_text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+
+
+.view{
+    margin: 0 auto ;
+    width: 30%;
+    background-color: #333333;
+    color: aliceblue;
+    margin-top:40px;
+    padding: 10px;
+}
+
+.view:hover{
+    background-color: aliceblue;
+    color: #000;
+}
+
+/* ---- post.show ---*/
+
+.post_show{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    height: 85vh;
+    padding-top: 15vh;
+}
+
+.post_show section{
+    width: 45%;
+    height: 60vh;
+}
+
+.post_show_img{
+    text-align: center;
+    align-items: center;
+}
+
+.post_show_img img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
+
+
+.post_show_text{
+    text-align: left;
+}
+
+.post_show_text h3{
+    width:80%;
+    border-bottom:  1px solid #888888;
+}
+
+/* --post.all ---*/
+
+
+.posts_all{
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    min-height: 95vh;
+    background-color: rgba(0,0,0,.5);
+}
+
+
+/* ---work.show ---*/
+
+.work_show{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    height: 85vh;
+    padding-top: 15vh;
+}
+
+.work_show section{
+    width: 45%;
+    height: 60vh;
+}
+
+.work_show_img{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.work_show_img a {
+    background-color: #888888;
+    color: aliceblue;
+    width: 40%;
+    margin: 0 auto;
+    transform: .5s;
+    
+
+}
+
+.work_show_img a:hover{
+    background-color: aliceblue;
+    color: #888888;
+}
+
+.work_show_img img{
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+
+.work_show_text{
+    text-align: left;
+}
+
+.work_show_text h3{
+    width:80%;
+    border-bottom:  1px solid #888888;
+}
+
+
+/* --work.all ---*/
+
+
+.works_all{
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    min-height: 95vh;
+    background-color: rgba(0,0,0,.5);
+}
+
+
+.work_all{
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-bottom:1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.works_all section{
+    width: 80%;
+    height: 50vh;
+}
+
+.works_all .work_img {
+    width:80%;
+    height:60%;
+    margin: 0 auto;
+}
+
+.works_all .work_img img{
+    height:80%;
+}
+
+
+
+@media screen and (max-width:800px) {
+
+    .post{
+        flex-direction: column;
+        
+    }
+    .post_img,
+    .post_text{
+        width: 100%;
+    }
+    .post_text{
+        font-size: 12px;
+        text-align: center;
+    }
+
+
+    .post_show{
+        display: block;
+    }
+
+    .post_show section{
+        width: 80%;
+        text-align: center;
+        height:35vh;
+        margin: 0 auto;;
+    }
+
+    .post_show_text h2{
+        width: 100%;
+    }
+
+
+    .works{
+        flex-direction: column;
+    }
+
+    .work{
+       height: 40vh;
+        width: 100%;
+    }
+
+    .work_img{
+        height: 60%;
+    }
+
+    .work_img img{
+        height: 80%;
+    }
+
+
+
+
+    .work_show{
+        display: block;
+    }
+
+    .work_show section{
+        width: 80%;
+        text-align: center;
+        height:35vh;
+        margin: 0 auto;;
+    }
+
+    .work_show_text h2{
+        width: 100%;
+    }
+
+
+
+    .view{
+    
+        padding: 5px;
+    }
+
+
+}

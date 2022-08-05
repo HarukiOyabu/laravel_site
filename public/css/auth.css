@@ -1,0 +1,226 @@
+body {
+    margin:0;
+    padding:0;
+}
+
+h1,
+h2 {
+    margin-top:0px;
+    color: #fff;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+header h1{
+    width: 30%;
+    color: #000;
+}
+
+
+header h1,
+header nav ul{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+header nav {
+    width: 60%;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding:0
+}
+
+header a,
+p {
+    color: #000 ;
+}
+
+.auth_device_menu{
+    height: 0vh;
+    display: none;
+}
+
+
+.auth_main_header{
+    width: 100vw;
+    position: fixed;
+    
+}
+
+
+footer{
+    text-align: center;
+}
+
+main{
+    padding-top: 10vh;
+}
+
+.edit_menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+   
+    height:80vh;
+}
+
+.edit_menu a{
+    width: 30%;
+    border: 1px solid #000;
+    margin: 0 auto;
+    padding: 5px;
+    color: #fff;
+    background-color: #333;
+}
+
+
+.edit_menu a:hover{
+    color: #333;
+    background-color: #fff;
+}
+
+
+
+/* --- photo_edit ---*/
+
+.photo_update{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+
+    height: 80vh;
+}
+
+.photo_update h2,
+.photo_update form{
+    margin-bottom: 50px;
+}
+
+.photo_update form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+}
+
+
+.update_photo{
+    margin: 0 auto;
+    width: 40%;
+    background-color: #333;
+    color: aliceblue;
+}
+
+.update_photo:hover{
+    color: #333;
+    background-color: aliceblue;
+}
+
+
+/* --- work_index --*/
+
+
+
+
+@media screen and (max-width:800px) {
+
+    .edit_menu{
+        height: 90vh;
+    }
+    .auth_main_header{
+        display: none;
+    }
+
+    .auth_header_btn {
+        border: 1px solid #000;
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        z-index: 100;
+    }
+
+
+    .auth_header_btn span {
+        width: 40px;
+        height: 2px;
+        right: 10px;
+        background-color: #000;
+        position: absolute;
+        transition: .5s;
+    }
+
+    .auth_header_btn span:nth-child(1) {
+        top: 15px;
+    }
+
+    .auth_header_btn span:nth-child(2) {
+        top: 28px;
+    }
+
+    .auth_header_btn span:nth-child(3) {
+        top: 41px;
+    }
+
+
+    .auth_header_btn.open{
+        border: 1px solid #fff;
+    }
+
+    .auth_header_btn.open span{
+        background-color: #fff;
+    }
+
+    .auth_header_btn.open span:nth-child(1){
+        
+        top:28px;
+    }
+    .auth_header_btn.open span:nth-child(2) {
+        display:none;
+    }
+
+    .auth_header_btn.open span:nth-child(3) {
+        
+        top:28px;
+    }
+
+
+
+    .auth_device_menu {
+        background-color: #333;
+        display: block;
+        position: fixed;
+        height: 0;
+        width: 100vw;
+        text-align: center;
+        overflow: hidden;
+        transition: .5s;
+        z-index: 40;
+    }
+
+    .auth_device_menu.open {
+	    height: 100vh;
+    }
+
+    .auth_device_menu p {
+	    margin: 30px 0;
+	    margin-bottom: 30px;
+    }
+
+    .auth_device_menu p a{
+        color: #fff;
+    }
+    .auth_device_menu p:nth-child(1) {
+    	margin-top:30vh;
+    }
+}
