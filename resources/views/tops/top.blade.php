@@ -12,7 +12,7 @@
     <img src="{{asset('images/background.png')}}" class="background-img">
     @endif
      <article id="top">
-        <h1>Haruki Oyabu</h1>
+        <h1>{{$user->name}}</h1>
         <p>web port folio</p>
         
     </article>
