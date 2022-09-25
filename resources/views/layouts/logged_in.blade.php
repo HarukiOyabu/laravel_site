@@ -31,6 +31,6 @@
 
 @section('footer')
 <footer>
-	<small>Copyright&copy Haruki Oyabu</small>
+	<small>Copyright&copy example</small>
 </footer>
 @endsection
